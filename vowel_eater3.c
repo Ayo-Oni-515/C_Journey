@@ -48,11 +48,7 @@ int main(void)
 		{
 			continue;
 		}
-		else if (user_word[i] == ' ')
-		{
-			continue;
-		}
-		printf("%c\n", user_word[i]);
+		printf("%c", user_word[i]);
 	}
 	printf("\n");
 	free(user_word);
