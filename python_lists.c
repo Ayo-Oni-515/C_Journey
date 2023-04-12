@@ -2,7 +2,7 @@
 
 struct LIST{
 	int siz;
-	char list[siz];
+	char *list;
 } var[3];
 
 int main(void)
